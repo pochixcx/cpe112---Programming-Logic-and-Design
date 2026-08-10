@@ -1,4 +1,4 @@
-# Lewcture 1 Introdction to Programming Logic and Design
+# Lecture 1 Introdction to Programming Logic and Design
 
 ## Lecture 1: Logic, Computer Systems, and Programming Fundamentals
 
