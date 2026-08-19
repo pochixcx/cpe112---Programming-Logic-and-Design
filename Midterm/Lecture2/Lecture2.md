@@ -451,6 +451,12 @@ A **flowchart** is a graphical representation of an algorithm. It uses standard 
 
 ---
 
+![Example flowchart symbols](./assets/basic-symbols-table.jpg)
+
+_Example: common flowchart symbols_
+
+---
+
 ## Flowchart rules
 
 - Begin with a **Start** terminal.
@@ -629,7 +635,23 @@ Before submitting pseudocode or a flowchart, check the following.
 
 ---
 
-# 9. Guided Exercises
+---
+
+# Summary
+
+- A problem describes a present condition and a desired result.
+- Problem-solving develops a logical solution before implementation.
+- IPO analysis identifies the data, processing, and expected result.
+- An algorithm is a clear, ordered, finite, and testable solution.
+- Natural language, pseudocode, and flowcharts can represent an algorithm.
+- Pseudocode expresses an algorithm through structured text.
+- A flowchart expresses an algorithm using symbols and arrows.
+- Correct logic and consistent formatting are both important.
+- Pseudocode and its corresponding flowchart must describe the same solution.
+
+---
+
+# Guided Exercises
 
 ## Exercise 1: Algorithm to pseudocode
 
@@ -659,73 +681,24 @@ END
 
 ## Exercise 3: Flowchart to pseudocode
 
-Create pseudocode from a flowchart that performs these operations:
+Create pseudocode and a flowchart that performs these operations:
 
 ```text
 Start
   ↓
-Input two numbers
+Input purchaseAmount
   ↓
-Add the two numbers
+Is purchaseAmount >= 1000?
   ↓
-Display the sum
+Yes → Display "Large purchase"
+    ↓
+    Is purchaseAmount >= 5000?
+    ↓
+    Yes → Display "Apply premium discount"
+    No  → Display "Apply regular discount"
+No → Display "No discount"
   ↓
 End
 ```
-
----
-
-## Exercise 4: Find the mismatch
-
-The pseudocode calculates:
-
-```text
-totalCost = price × quantity
-```
-
-The corresponding flowchart contains:
-
-```text
-totalCost = price + quantity
-```
-
-Identify which representation is incorrect and revise it so both express the intended logic.
-
----
-
-# 10. Individual Activity: Pseudocode and Flowchart Conversion
-
-## Task
-
-Choose one simple program from the following:
-
-- Daily allowance calculator
-- Electricity-usage checker
-- Mobile-load purchase checker
-- Classroom attendance checker
-- Water-level controller
-
-Submit:
-
-1. A short problem statement
-2. An IPO table
-3. Pseudocode representing the complete solution
-4. A corresponding flowchart
-
-Your pseudocode and flowchart must contain the same inputs, processing, decisions, and outputs.
-
----
-
-# 11. Summary
-
-- A problem describes a present condition and a desired result.
-- Problem-solving develops a logical solution before implementation.
-- IPO analysis identifies the data, processing, and expected result.
-- An algorithm is a clear, ordered, finite, and testable solution.
-- Natural language, pseudocode, and flowcharts can represent an algorithm.
-- Pseudocode expresses an algorithm through structured text.
-- A flowchart expresses an algorithm using symbols and arrows.
-- Correct logic and consistent formatting are both important.
-- Pseudocode and its corresponding flowchart must describe the same solution.
 
 ---
