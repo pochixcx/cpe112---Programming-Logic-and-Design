@@ -681,22 +681,26 @@ END
 
 ## Exercise 3: Flowchart to pseudocode
 
-Create pseudocode and a flowchart that performs these operations:
+Write pseudocode and draw a flowchart for the following problem:
+
+> A teacher wants to classify a student's result based on the final grade. If the grade is 90 or above, display `Excellent`. If the grade is 75 to 89, display `Passed`. Otherwise, display `Failed`.
+
+Use the following flow of operations as your guide:
 
 ```text
 Start
   ↓
-Input purchaseAmount
+Input grade
   ↓
-Is purchaseAmount >= 1000?
+Is grade >= 90?
   ↓
-Yes → Display "Large purchase"
+Yes → Set remarks = "Excellent"
+No → Is grade >= 75?
+            ↓
+            Yes → Set remarks = "Passed"
+            No  → Set remarks = "Failed"
     ↓
-    Is purchaseAmount >= 5000?
-    ↓
-    Yes → Display "Apply premium discount"
-    No  → Display "Apply regular discount"
-No → Display "No discount"
+Display remarks
   ↓
 End
 ```
