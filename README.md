@@ -9,5 +9,5 @@ To navigate the repository, just simply click the folder of the specific lecture
 ## Midterm Topics
 
 - [`Lecture1`](./Midterm/Lecture1/Lecture1.md)- Introduction to PLD
-- Lecure 2 - Problem Analysis, Algorithms, Flowcharts, and Pseudocode
+- [`Lecure 2`](./Midterm//Lecture2/Lecture2.md) - Problem Analysis, Algorithms, Flowcharts, and Pseudocode
 - Lecture 3 - Introduction to C, Variables, and Data Types
