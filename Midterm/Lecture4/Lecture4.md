@@ -569,11 +569,11 @@ The word **at least** usually suggests `>=`, while **at most** usually suggests 
 
 Logical operators combine or reverse conditions.
 
-| Operator | Name        | Meaning                            |
-| -------- | ----------- | ---------------------------------- | ---------- | ---------------------------------------- |
-| `&&`     | Logical AND | True when both conditions are true |
-| `        |             | `                                  | Logical OR | True when at least one condition is true |
-| `!`      | Logical NOT | Reverses true and false            |
+| Operator | Name        | Meaning                                  |
+| -------- | ----------- | ---------------------------------------- |
+| `&&`     | Logical AND | True when both conditions are true       |
+| `\|\|`   | Logical OR  | True when at least one condition is true |
+| `!`      | Logical NOT | Reverses true and false                  |
 
 ---
 
@@ -613,12 +613,12 @@ The complete expression is true when at least one condition is true.
 
 A customer qualifies for a discount when the customer is a senior citizen **or** a person with disability.
 
-| `isSenior` | `isPWD` | `isSenior |     | isPWD` |
-| ---------: | ------: | --------: | --- | ------ |
-|      False |   False |     False |
-|      False |    True |      True |
-|       True |   False |      True |
-|       True |    True |      True |
+| `isSenior` | `isPWD` | `isSenior \|\| isPWD` |
+| ---------: | ------: | --------------------: |
+|      False |   False |                 False |
+|      False |    True |                  True |
+|       True |   False |                  True |
+|       True |    True |                  True |
 
 The logical OR in C is inclusive: it remains true when both conditions are true.
 
@@ -733,17 +733,17 @@ The result is `14`, not `20`.
 
 From higher to lower precedence:
 
-| Priority | Operators                             | Category                            |
-| -------: | ------------------------------------- | ----------------------------------- | --- | ---------- |
-|        1 | `()`                                  | Parentheses                         |
-|        2 | `!`, unary `+`, unary `-`, `++`, `--` | Unary operators                     |
-|        3 | `*`, `/`, `%`                         | Multiplication, division, remainder |
-|        4 | `+`, `-`                              | Addition and subtraction            |
-|        5 | `<`, `<=`, `>`, `>=`                  | Relational comparisons              |
-|        6 | `==`, `!=`                            | Equality comparisons                |
-|        7 | `&&`                                  | Logical AND                         |
-|        8 | `                                     |                                     | `   | Logical OR |
-|        9 | `=`, `+=`, `-=`, `*=`, `/=`, `%=`     | Assignment                          |
+| Priority | Operators                              | Category                             |
+| -------: | -------------------------------------- | ------------------------------------- |
+|        1 | `()`                                   | Parentheses                          |
+|        2 | `!`, unary `+`, unary `-`, `++`, `--`  | Unary operators                      |
+|        3 | `*`, `/`, `%`                          | Multiplication, division, remainder  |
+|        4 | `+`, `-`                               | Addition and subtraction             |
+|        5 | `<`, `<=`, `>`, `>=`                   | Relational comparisons               |
+|        6 | `==`, `!=`                             | Equality comparisons                 |
+|        7 | `&&`                                   | Logical AND                          |
+|        8 | `\|\|`                                    | Logical OR                            |
+|        9 | `=`, `+=`, `-=`, `*=`, `/=`, `%=`      | Assignment                           |
 
 This table covers the operators used in this lecture. C contains additional operators that will be introduced when needed.
 
@@ -916,7 +916,7 @@ Every calculation must be expressed in a single valid sequence of C operators an
 Certain words suggest particular operators.
 
 | Word or phrase                      | Likely operator |
-| ----------------------------------- | --------------- | --- | --- |
+| ----------------------------------- | --------------- |
 | Sum, total, increased by            | `+`             |
 | Difference, decreased by, remaining | `-`             |
 | Product, times, of                  | `*`             |
@@ -929,7 +929,7 @@ Certain words suggest particular operators.
 | Equal to                            | `==`            |
 | Not equal to                        | `!=`            |
 | Both, and                           | `&&`            |
-| Either, or                          | `               |     | `   |
+| Either, or                          | `\|\|`          |
 | Not                                 | `!`             |
 
 Examples:
