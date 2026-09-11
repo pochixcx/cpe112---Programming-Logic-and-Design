@@ -135,7 +135,7 @@ The first condition is true, so C produces `1`. The second condition is false, s
 ## Operators used in conditions
 
 | Operator | Meaning                  | Example               |
-| -------- | ------------------------ | --------------------- | ---------- | --------- | --- | ------ |
+| -------- | ------------------------ | --------------------- |
 | `==`     | Equal to                 | `choice == 1`         |
 | `!=`     | Not equal to             | `choice != 0`         |
 | `>`      | Greater than             | `temperature > 30`    |
@@ -143,7 +143,7 @@ The first condition is true, so C produces `1`. The second condition is false, s
 | `>=`     | Greater than or equal to | `grade >= 70`         |
 | `<=`     | Less than or equal to    | `age <= 12`           |
 | `&&`     | Logical AND              | `hasID && isEnrolled` |
-| `        |                          | `                     | Logical OR | `isSenior |     | isPWD` |
+| `\|`     | Logical OR               | `isSenior \|\| isPWD` |
 | `!`      | Logical NOT              | `!isLocked`           |
 
 Remember that `=` assigns a value, while `==` compares two values.
