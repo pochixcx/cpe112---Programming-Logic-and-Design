@@ -13,3 +13,4 @@ To navigate the repository, just simply click the folder of the specific lecture
 - [`Lecture 3`](./Midterm/Lecture3/Lecture3.md) - Introduction to C, Variables, and Data Types
 - [`Lecture 4`](./Midterm/Lecture4/Lecture4.md) - Operators and Expressions
 - [`Lecture 5`](/Midterm//Lecture5/Lecture5.md) - Conditional statements and loops
+- [`Lecture 6`](/Midterm//Lecture6/Lecture6.md) - Nested Loops and Modular Programming
