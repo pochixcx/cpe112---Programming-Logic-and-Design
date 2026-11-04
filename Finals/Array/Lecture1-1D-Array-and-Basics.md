@@ -15,14 +15,6 @@ After studying this lecture, the student should be able to:
 6. Pass an array to a function and explain how the function can modify the caller's array.
 7. Identify and correct out-of-bounds access and related common errors.
 
-**Program Outcomes addressed:** a, b, c
-
-| Outcome | How this lecture contributes |
-| :-----: | ---------------------------- |
-| a | Applying mathematical ideas (sum, average, extremes) to solve data-processing problems and justifying the chosen solution. |
-| b | Identifying, formulating, and analyzing a problem about a collection of data and solving it with a program. |
-| c | Designing a program component (a function operating on an array) that works within realistic constraints such as fixed size and memory. |
-
 **Prior knowledge assumed:** variables, data types, `printf`/`scanf`, selection statements, loops, and basic functions.
 
 ---
